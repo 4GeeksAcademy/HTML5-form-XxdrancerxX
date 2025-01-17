@@ -1,0 +1,78 @@
+.header.row {
+    background-color: rgba(212, 212, 212, 0.212);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.box {
+    width: 100%;
+    border: 1px solid;
+    border-radius: 0cap;
+}
+
+.superior {
+    background-color: hwb(0 0% 0% / 0.144);
+    margin: 10px;
+    height: 50px;
+    display: flex; 
+    align-items: center;
+    
+}
+.pops-out {
+    font-weight: bold;
+    color: hsl(0, 100%, 30%);
+    
+}
+#Card {
+    width: 100%; 
+  max-width: 400px;
+ 
+  
+}
+#first-name {
+    width: 100%; 
+    
+}
+#Amount{
+    width: 100%;
+    max-width: 250px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #80bdff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+label {
+
+    margin-bottom: 8px;
+    /* Add spacing between label and textarea */
+
+}
+
+.d-grid {
+    background-color: rgba(212, 212, 212, 0.212);
+}
+
+.btn-secondary {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+.btn-primary {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
