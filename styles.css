@@ -2,11 +2,12 @@
     background-color: rgba(212, 212, 212, 0.212);
     margin-left: 0px;
     margin-right: 0px;
+    border: 1px solid #ced4da;
 }
 
 .box {
     width: 100%;
-    border: 1px solid;
+    border: 1px solid #ced4da;
     border-radius: 0cap;
 }
 
@@ -27,16 +28,38 @@
     width: 100%; 
   max-width: 400px;
  
-  
+ 
 }
+
+#Amount-col {
+    position: relative;
+    right: 20px; 
+      }
+      
+
+#Amount {
+    width: 100%;
+}
+
+
 #first-name {
     width: 100%; 
     
 }
-#Amount{
+
+
+#Last-name {
     width: 100%;
-    max-width: 250px;
 }
+#CVC-card  {
+    position: relative;
+    right: 80px; 
+    
+  }
+  #CVC {
+    width: 90%%;
+  }
+  
 
 textarea {
     width: 100%;
@@ -55,12 +78,13 @@ textarea:focus {
 label {
 
     margin-bottom: 8px;
-    /* Add spacing between label and textarea */
+    
 
 }
 
 .d-grid {
     background-color: rgba(212, 212, 212, 0.212);
+    border: 1px solid #ced4da; 
 }
 
 .btn-secondary {
@@ -75,4 +99,30 @@ label {
     margin-right: 10px;
     margin-bottom: 10px;
 
+}
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    margin-bottom: 10px;
+}
+#message {
+    margin-top: 10px;
+}
+.buttons-footer {
+    margin-top: 50px;
+}
+input {
+       border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+input:focus {
+    outline: none;
+    border-color: #80bdff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+#col-message label {
+    color: #bfc4c9;
+    font-size: smaller
 }
