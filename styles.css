@@ -32,7 +32,7 @@
 }
 
 #Amount-col {
-    position: relative;
+    
     right: 20px; 
       }
       
@@ -40,7 +40,9 @@
 #Amount {
     width: 100%;
 }
-
+.Amount-dollar {
+    display: flex;
+}
 
 #first-name {
     width: 100%; 
