@@ -6,6 +6,7 @@ window.onload = function () {
   
     // Initially hide the error message
     dialog.classList.add('d-none');
+    
   
     // Add event listener for the send button
     sendButton.addEventListener('click', function (e) {
@@ -26,9 +27,10 @@ window.onload = function () {
       // Show or hide the error message based on validation
       if (hasError) {
         dialog.classList.remove('d-none'); // Show error message
-        dialog.textContent = 'Some Fields are missing'; // Customize the error message
+        dialog.textContent = 'Some Fields are missing from js'; // Customize the error message
       } else {
         dialog.classList.add('d-none'); // Hide error message if no errors
+        
         alert('Form submitted successfully!'); // Show a success message
         form.reset(); // Optionally reset the form
       }
